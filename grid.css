@@ -25,22 +25,22 @@ body{
     min-height: 100vh;
 }
 main{
-    min-height: 70vh;
+    min-height: 60vh;
     display: grid;
     gap: 10px;
     grid-template-areas:
-    "a a a b b"
+    /* "a a a b b" */
     "a a a b b"
     "a a a b b"
     "c c d d d"
     "c c e e e"
     ;
     width: 100%;
-    max-width: 500px;
-    padding: 15px;
+    max-width: 600px;
+    padding: 20px;
 }
 .box{
-    padding: 1em;
+    padding: 1.5em;
 }
 .box-1{
     background-color: #EB5020;
